@@ -1,0 +1,30 @@
+#div1{
+    background-color: red;
+    color: white;
+    height: 250px;
+    width: 1335px;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+}
+
+#div2{
+    background-color: yellow;
+    height: 250px;
+    width: 1335px;
+    padding-top: 10%;
+}
+
+#div3{
+    background-color:black;
+    height: 250px;
+    width: 1335px;
+    padding-top: 10%;
+}
+
+#div4{
+    background-color: green;
+    height: 250px;
+    width: 1335px;
+    padding-top: 10%;
+}
