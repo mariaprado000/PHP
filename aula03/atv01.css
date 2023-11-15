@@ -1,0 +1,64 @@
+:root {
+  --cor01: red;
+  --cor02: rgba(0, 0, 255, 0.829);
+  --cor03: #ffff00;
+  --cor04: hsla(120, 100%, 25%, 0.685), (100%, 25%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.div1 {
+  background-color: var(--cor01);
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.div2 {
+  background-color: rgba(0, 0, 255, 0.829);
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.div3 {
+  background-color: var(--cor03);
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.div4 {
+  background-color: hsla(120, 100%, 25%, 0.685);
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+ 
+}
+#div1  {
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+  border: 3px solid white;
+  margin-top: 230px;
+}
+#div2{
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid white;
+  margin-top: 230px;
+}
+#div3{
+
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid white;
+  margin-top: 230px;}
+  #div4{
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid white;
+  margin-top: 230px;
+  }
