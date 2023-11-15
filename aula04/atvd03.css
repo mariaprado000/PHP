@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#header {
+  background-color: rgba(154, 98, 206, 0.671);
+  background-image: url(img/87390.png);
+  background-position: 1569px;
+  background-repeat: no-repeat;
+  background-size: 256px;
+}
+#body {
+  background-color: rgba(154, 98, 206, 0.671);
+  height: 98vh;
+}
+img {
+  border: 2px solid black;
+  width: 256px;
+  margin: 50px 534px;
+  padding: 10px;
+}
+#image {
+  border: 3px solid black;
+}
