@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.div1{
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: "div2 div2 div2"
+                         "div3 div4 div5"
+                         "div3 div6 div6";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: 100px 300px 50px;
+} 
+.div2{
+    grid-area: div2;
+    border: 3px solid blue;
+
+}
+.div3 {
+    grid-area: div3;
+    border: 3px solid blue; 
+
+}
+.div4{
+    grid-area: div4;
+    border: 3px solid blue;
+
+}
+.div5{
+    grid-area: div5;
+    border: 3px solid blue;
+
+}
+.div6{
+    grid-area: div6;
+    border: 3px solid blue;
+
+
+}
