@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+
+.box{
+    height: 1000px;
+    background-color:blueviolet;
+    display: grid;
+    grid-template-areas: " laterald topo lateral"
+                         " laterald cont  lateral "
+                         "laterald rod lateral";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 150px 1fr 150px;
+    
+}
+
+.titulo{
+    background-color:green ;
+    grid-area: topo;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.conteudo{
+    background-color:red;
+    grid-area: cont;
+    display: flex;
+    text-align: center;
+
+
+}
+.conteudo>div{
+height: 100%;
+width: 33.33%;
+
+}
+.d1{
+    background-color: aqua;
+}
+.d2{
+    background-color: blue;
+}
+.d3{
+    background-color: brown;
+}
+
+.rodape{
+    background-color:magenta;
+    grid-area: rod;
+    text-align: center;
+    padding: 70px;
+    
+    
+}
+
+
+
+
+.lateral {
+    background-color:pink;
+    grid-area: lateral;
+
+    
+   
+
+}
+.lateral>p{
+height:300px;
+
+
+}
+.p1{
+    background-color: aqua;
+}
+.p2{
+    background-color: blueviolet;
+}
+.p2{
+    background-color: brown;
+}
+
+.laterad {
+    background-color: honeydew;
+    grid-area:laterald ;
+    text-align: center;
+    padding-top: 160px;
+
+}
+img{
+   width: 150px;
+
+
+
+}
+a{
+margin: 40px;
+
+}
+.disciplina{
+width: 100px;
+background-color: brown;
+text-align: center;
+}
+.caixa3{
+    width: 100px;
+    background-color: azure;
+    height: 100px;
+}
