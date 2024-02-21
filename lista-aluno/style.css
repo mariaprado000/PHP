@@ -1,0 +1,61 @@
+body{
+    background-color: papayawhip;
+    
+}
+
+body> .encima{
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+}
+
+body> .encima > img{
+    height: 100px;
+    width: 200px;
+}
+
+body> .encima> nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+body> .encima> nav> :hover{
+    text-decoration:underline;
+    color: yellow;
+}
+
+body> .encima> nav> :link{
+    text-decoration: none;
+}
+
+body> .centro{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: beige;
+    text-align: center;
+
+}
+
+body> .centro > .esquerda{
+    background-color: aquamarine;
+  flex:1
+
+}
+
+body> .centro > .direita{
+    background-color: grey;
+    flex:4
+}
+
+
+body> .rodape{
+    background-color: slateblue;
+    height: 50px;
+
+}
+
+
+
